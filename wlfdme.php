@@ -15,6 +15,9 @@ php sc.php list.txt [ use http:// or https:// ]
 *   Use php filename.php list.txt
 * ! This tool is not so good because it tries all the path on one website so it takes too long
 *   The output list will be saved in the name wptv.txt
+* If have blocked by server when u upload this file custom the function like evil or another is detect by WAF 
+* Don't need to care about my code, because honestly  ... I can't write code
+* Thanks for all my "!FriendS".
 */
 
 if(!file_exists($argv[1])){
